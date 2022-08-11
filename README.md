@@ -1,18 +1,18 @@
 > 本项目前后端分离，前端参考 [小米商城](www.mi.com) 实现。
 
-> 这是本项目的前端，后端请移步到[项目后端](https://github.com/Miki-Hunter/-store-server-django)
+> 这是本项目的前端[前端-toUser](https://github.com/Miki-Hunter/toUser-vue-store-1.0)，后端请移步到[重构后端-DRF1.0](https://github.com/Miki-Hunter/store-server-django-Version1.0)
 
-> 此即[原博主项目-前端](https://github.com/hai-27/vue-store)，项目改动不大，修改了部分请求逻辑和添加了验证链接进行 "激活" 操作，配合DRF后端使用。
+> 相应地，我写了一个管理后台[前端-toAdmin](https://github.com/Miki-Hunter/toAdmin-vue-store-1.0)，基于 vue3 + element-Plus，不过功能还没全部完善，还在学习与改进。 
 
-> 相应地，我写了一个管理后台，基于 vue3 + element-Plus，不过功能还没全部完善，还在学习与改进。 
+> 此为 [原博主项目-前端](https://github.com/hai-27/vue-store)，项目改动不大，修改了部分请求逻辑和添加了验证链接进行 "激活" 操作，配合DRF后端使用。
 
-> [原作者项目-后端](https://github.com/hai-27/store-server) node.js + Koa框架实现
+> 此为 [原作者项目-后端](https://github.com/hai-27/store-server) node.js + Koa框架实现
 
-> [重构后项目-后端](https://github.com/Miki-Hunter/-store-server-django) django + drf 实现
+> [重构后端-DRF1.0](https://github.com/Miki-Hunter/store-server-django-Version1.0) django + drf 实现
 
 ## 项目简介
 
-本项目前后端分离，前端基于`Vue`+`Vue-router`+`Vuex`+`Element-ui`+`Axios`，参考小米商城实现。后端基于`Node.js(Koa框架)`+`Mysql`实现。
+本项目前后端分离，前端基于`Vue`+`Vue-router`+`Vuex`+`Element-ui`+`Axios`，参考小米商城实现。后端基于`Django + DRF框架`实现。
 
 前端包含了11个页面：首页、登录、注册、全部商品、商品详情页、关于我们、我的收藏、购物车、订单结算页面、我的订单以及错误处理页面。
 
@@ -20,23 +20,7 @@
 
 ## 技术栈
 
-- **前端：**`Vue`+`Vue-router`+`Vuex`+`Element-ui`+`Axios`
-
-## 功能模块
-
-### 登录
-
-页面使用了element-ui的`Dialog`实现弹出蒙版对话框的效果，`登录`按钮设置在App.vue根组件，通过`vuex`中的`showLogin`状态控制登录框是否显示。
-
-这样设计是为了既可以通过点击页面中的按钮登录，也可以是用户访问需要登录验证的页面或后端返回需要验证登录的提示后自动弹出登录框，减少了页面的跳转，简化用户操作。
-
-用户输入的数据往往是不可靠的，所以本项目前后端都对登录信息进行了校验，前端基于element-ui的表单校验方式，自定义了校验规则进行校验。
-
-### 注册
-
-页面同样使用了element-ui的`Dialog`实现弹出蒙版对话框的效果，`注册`按钮设置在App.vue根组件，通过父子组件传值控制注册框是否显示。
-
-用户输入的数据往往是不可靠的，所以本项目前后端同样都对注册信息进行了校验，前端基于element-ui的表单校验方式，自定义了校验规则进行校验。
+- **`Vue`+`Vue-router`+`Vuex`+`Element-ui`+`Axios`
 
 ### 购物车
 购物车采用vuex实现，页面效果参考了小米商城的购物车。
