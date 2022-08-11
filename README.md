@@ -1,8 +1,8 @@
 > 本项目前后端分离，前端参考 [小米商城](www.mi.com) 实现。
 
-> 这是本项目的前端[前端-toUser](https://github.com/Miki-Hunter/toUser-vue-store-1.0)，后端请移步到[重构后端-DRF1.0](https://github.com/Miki-Hunter/store-server-django-Version1.0)
+> 这是本项目的前端[前端-toUser1.0](https://github.com/Miki-Hunter/toUser-vue-store-1.0)，后端请移步到[重构后端-DRF1.0](https://github.com/Miki-Hunter/store-server-django-Version1.0)
 
-> 相应地，我写了一个管理后台[前端-toAdmin](https://github.com/Miki-Hunter/toAdmin-vue-store-1.0)，基于 vue3 + element-Plus，不过功能还没全部完善，还在学习与改进。 
+> 相应地，我写了一个管理后台[前端-toAdmin1.0](https://github.com/Miki-Hunter/toAdmin-vue-store-1.0)，基于 vue3 + element-Plus，不过功能还没全部完善，还在学习与改进。 
 
 > 此为 [原博主项目-前端](https://github.com/hai-27/vue-store)，项目改动不大，修改了部分请求逻辑和添加了验证链接进行 "激活" 操作，配合DRF后端使用。
 
